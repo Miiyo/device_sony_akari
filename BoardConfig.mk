@@ -5,7 +5,7 @@
 #
 
 # Inherit from tama-common
--include device/sony/tama-common-kddi/BoardConfigCommon.mk
+include device/sony/tama-common-kddi/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/akari_kddi
 
@@ -27,4 +27,4 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
--include vendor/sony/akari/BoardConfigVendor.mk
+include vendor/sony/akari/BoardConfigVendor.mk

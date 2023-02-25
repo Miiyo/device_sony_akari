@@ -1,5 +1,5 @@
-# Device Tree for Xperia XZ2 (akari)
- By Sjll
+# Device Tree for Xperia XZ2 SOV37 (akari_kddi)
+By Sjll
 The Xperia (codenamed _"akari"_) is a smartphone from Sony Mobile.
 It was released in 2018.
 

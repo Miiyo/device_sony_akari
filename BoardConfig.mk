@@ -13,7 +13,7 @@ DEVICE_PATH := device/sony/akari_kddi
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := tama_akari_kddi_defconfig
+TARGET_KERNEL_CONFIG := miyo-akari-kddi_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

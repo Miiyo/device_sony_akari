@@ -48,3 +48,24 @@ PRODUCT_COPY_FILES += \
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
+
+# Bluetooth
+PRODUCT_VENDOR_PROPERTIES += \
+    bluetooth.device.default_name=Xperia XZ2
+
+# SEMC
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.semc.ms_type_id=PM-1119-BV \
+    ro.semc.product.device=H82 \
+    ro.semc.product.model=H8296 \
+    ro.semc.product.name=Xperia XZ2 \
+    ro.semc.version.fs=GENERIC \
+    ro.semc.version.fs_revision=52.1.A.3.49 \
+    ro.semc.version.sw=1311-7920 \
+    ro.semc.version.sw_revision=52.1.A.3.49 \
+    ro.semc.version.sw_type=user \
+    ro.semc.version.sw_variant=GLOBAL4GB-C2
+
+# Camera
+PRODUCT_SYSTEM_PROPERTIES += \
+    camera.disable_zsl_mode=1

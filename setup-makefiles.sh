@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=akari_kddi
+export DEVICE=akari
 export DEVICE_COMMON=tama-common-kddi
 export VENDOR=sony
 

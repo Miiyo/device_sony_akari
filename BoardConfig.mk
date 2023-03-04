@@ -7,7 +7,7 @@
 # Inherit from tama-common-kddi
 include device/sony/tama-common-kddi/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/akari_kddi
+DEVICE_PATH := device/sony/akari
 
 # Display
 TARGET_SCREEN_DENSITY := 440

@@ -1,6 +1,5 @@
-# Device Tree for Xperia XZ2 (akari)
- By Sjll
-The Xperia (codenamed _"akari"_) is a smartphone from Sony Mobile.
+# Device Tree for Xperia XZ2 SOV37 (akari_kddi)
+The Xperia XZ2 SOV37 (codenamed _"akari-kddi"_) is a smartphone from Sony Mobile.
 It was released in 2018.
 
 | Basic                   | Spec Sheet                                                                                                                     |
@@ -17,7 +16,6 @@ It was released in 2018.
 | Camera (Front)          | 5 MP (f/2.2, 1/5"), gyro EIS, 1080p                                                                    |
 
 Copyright 2018 - The LineageOS Project.
-
 ![Xperia XZ2](https://images-na.ssl-images-amazon.com/images/I/71nC8hZVTIL._SL1500_.jpg "Xperia XZ2")
 
 
@@ -34,3 +32,4 @@ $ fastboot flash system system.img
 $ fastboot -w reboot
 ```
 
+By sjll

@@ -5,13 +5,13 @@
 #
 
 # Inherit from akari device
-$(call inherit-product, device/sony/akari/device.mk)
+$(call inherit-product, device/sony/akari_kddi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_akari
-PRODUCT_DEVICE := akari
+PRODUCT_NAME := lineage_akari_kddi
+PRODUCT_DEVICE := akari_kddi
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia XZ2

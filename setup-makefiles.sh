@@ -8,8 +8,8 @@
 
 set -e
 
-export DEVICE=akari
-export DEVICE_COMMON=tama-common
+export DEVICE=akari_kddi
+export DEVICE_COMMON=tama-common-kddi
 export VENDOR=sony
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

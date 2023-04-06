@@ -5,15 +5,15 @@
 #
 
 # Inherit from tama-common
--include device/sony/tama-common/BoardConfigCommon.mk
+-include device/sony/tama-common-kddi/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/akari
+DEVICE_PATH := device/sony/akari_kddi
 
 # Display
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := tama_akari_defconfig
+TARGET_KERNEL_CONFIG := tama_akari_kddi_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

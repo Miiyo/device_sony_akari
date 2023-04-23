@@ -7,10 +7,10 @@
 # Inherit from akari device
 $(call inherit-product, device/sony/akari_kddi/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common xdroid stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
-PRODUCT_NAME := lineage_akari_kddi
+PRODUCT_NAME := xdroid_akari_kddi
 PRODUCT_DEVICE := akari_kddi
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
@@ -24,3 +24,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="H8296-user 10 52.1.A.3.49 052001A003004902006556692 release-keys"
 
 BUILD_FINGERPRINT := Sony/H8296/H8296:10/52.1.A.3.49/052001A003004902006556692:user/release-keys
+
+# xdroid stuff.
+XDROID_MAINTAINER := exer
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_CALL_RECORDING := true
